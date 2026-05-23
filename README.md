@@ -17,6 +17,32 @@ It is manually triggered and designed for **self-hosted environments**, ensuring
 
 ---
 
+## 📸 Workflow Screenshots
+
+### ⚙️ 1. Workflow Design
+
+![Workflow Design](assets/screenshots/workflow2.png)
+
+This shows the complete n8n automation pipeline connecting RSS feeds, Gemini AI, and Gmail delivery.
+
+---
+
+### 🤖 2. AI Processing Output
+
+![AI Output](assets/screenshots/workflow2out.png)
+
+This demonstrates how Gemini processes and summarizes incoming news articles into concise insights.
+
+---
+
+### 📧 3. Final Email Output
+
+![Email Output](assets/screenshots/workflow2out2.png)
+
+This is the final structured email delivered to the user’s inbox containing AI-generated news summaries.
+
+---
+
 ## ⚙️ Workflow Architecture
 Manual Execution → AI Summary Agent (Gemini Chat Model + RSS Nodes: Tech
 News from The Verge, World News from BBC) → Set Node → Gmail Node (Send
